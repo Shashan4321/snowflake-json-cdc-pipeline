@@ -1,0 +1,8 @@
+[sqlfluff]
+dialect = duckdb
+templater = raw
+max_line_length = 100
+exclude_rules = ST06, AM04, RF04, ST05, CV11, AL05
+
+[sqlfluff:rules:capitalisation.keywords]
+capitalisation_policy = upper

@@ -1,0 +1,20 @@
+[project]
+name = "snowflake-json-cdc-pipeline"
+version = "0.1.0"
+description = "Semi-structured JSON ingestion into Snowflake with FLATTEN, Streams + Tasks CDC and idempotent MERGE; logic verified locally on DuckDB in CI."
+requires-python = ">=3.10"
+dependencies = ["duckdb>=1.4"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.6", "sqlfluff>=3", "pre-commit>=3"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
