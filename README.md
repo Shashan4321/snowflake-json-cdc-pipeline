@@ -117,4 +117,4 @@ make test      # 6 tests vs independent recomputation
 
 **Shashank Singh**, Senior Data Analyst · [Portfolio](https://shashan4321.github.io) · [LinkedIn](https://www.linkedin.com/in/shashank-moon)
 
-*Professional impact:* built Snowflake JSON pipelines with FLATTEN and LATERAL joins, Streams (CDC) and Replication, and cut query time by 35%. This repo shows the patterns on open, synthetic data.
+*Professional impact:* built Snowflake JSON pipelines with FLATTEN and LATERAL joins, Streams (CDC) and Replication, as part of a 35% query-time reduction across SQL Server, PostgreSQL and Snowflake. This repo shows the patterns on open, synthetic data.
